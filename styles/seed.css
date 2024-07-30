@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,300;1,300&display=swap');
+
+body, html {
+    height: 100%;
+    background-color: var(--raisin-black);
+}
+
+:root {
+
+
+
+    /* CSS FONTS */
+    --heading-font: "Exo 2";
+
+    /* CSS HEX */
+    --raisin-black: #1c1a1dff;
+    --gunmetal: #223b3eff;
+    --cambridge-blue: #8f9985ff;
+    --lime-green: #3dcc00ff;
+    --aquamarine: #85ffc8ff;
+
+}
+
+h1 {
+    position: absolute;
+    color: var(--aquamarine);
+    font-family: var(--heading-font);
+    font-weight: 100;
+    padding: 10px;
+    margin-left: 0%;
+    padding-left: 30px;
+}
+
+.exo-2-thin> {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.bg img {
+    width: 100%;
+}
+
+
+a:link, a:visited {
+    font-family: var(--heading-font);
+    color: var(--aquamarine);
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-decoration: none;
+    font-size: x-large;
+  }
+  
+  a:hover, a:active {
+    background-color: var(--gunmetal);
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+

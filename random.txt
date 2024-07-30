@@ -1,0 +1,41 @@
+    /* image used */
+    background-image: url("images/dna-wallpaper.jpg");
+
+    height: 100%;
+
+    /*center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+a:link, a:visited {
+    font-family: var(--heading-font);
+    color: var(--marian-blue);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+  }
+  
+  a:hover, a:active {
+    background-color: var(--tea-green);
+    border-radius: 5px;
+  }
+
+
+
+    /* CSS HEX */
+--raisin-black: #1c1a1dff;
+--gunmetal: #223b3eff;
+--cambridge-blue: #8f9985ff;
+--lime-green: #3dcc00ff;
+--aquamarine: #85ffc8ff;
+
+/* CSS HSL */
+--raisin-black: hsla(280, 5%, 11%, 1);
+--gunmetal: hsla(186, 29%, 19%, 1);
+--cambridge-blue: hsla(90, 9%, 56%, 1);
+--lime-green: hsla(102, 100%, 40%, 1);
+--aquamarine: hsla(153, 100%, 76%, 1);
